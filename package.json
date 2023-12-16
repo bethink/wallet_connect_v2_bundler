@@ -1,0 +1,23 @@
+{
+  "name": "bundle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@walletconnect/ethereum-provider": "^2.10.6",
+    "ethers": "5.7.2"
+  },
+  "devDependencies": {
+    "esmify": "^2.1.1",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "browser": {
+    "[module-name]": false
+  }
+}
